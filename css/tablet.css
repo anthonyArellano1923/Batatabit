@@ -1,0 +1,27 @@
+.plans-container__plans-cards {
+  justify-content: center;
+  width: 93rem;
+}
+
+.benefits-container {
+  padding: 2rem 0;
+}
+
+.benefits-container__cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 930px;
+  margin: 0 auto;
+}
+
+
+.benefits-container__cards-section .benefits-container__cards-section--card {
+  margin: 1.5rem 1rem;
+}
+
+.exchange-table-container {
+  width: 93rem;
+  justify-content: space-between;
+  justify-content: center;
+}
