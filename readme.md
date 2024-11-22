@@ -38,7 +38,7 @@ The design starts with mobile devices and scales up to desktop/tablets.
 
 🚀 How to View the Project
 
-	1.	Clone this repository:
+	1.	Clone this repository: https://github.com/anthonyArellano1923/Batatabit
 
 git clone https://github.com/anthonyArellano1923/Batatabit
 
@@ -91,7 +91,7 @@ El diseño comienza con dispositivos móviles y escala hacia versiones de escrit
 
 🚀 Cómo visualizar el proyecto
 
-	1.	Clona este repositorio:
+	1.	Clona este repositorio: https://github.com/anthonyArellano1923/Batatabit
 
 git clone https://github.com/usuario/batatabit.git
 
