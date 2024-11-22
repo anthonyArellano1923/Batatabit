@@ -2,8 +2,8 @@
 
 Welcome! Choose your preferred language:
 
-- [Español](#versión-en-español)
-- [English](#english-version)
+- [Español](#📜-versión-en-español)
+- [English](#📜-english-version)
 
 ## 📜 English Version
 
@@ -93,7 +93,7 @@ El diseño comienza con dispositivos móviles y escala hacia versiones de escrit
 
 	1.	Clona este repositorio:
 
-git clone https://github.com/usuario/batatabit.git
+git clone https://github.com/anthonyArellano1923/Batatabit
 
 
 	2.	Abre el archivo index.html en tu navegador.
