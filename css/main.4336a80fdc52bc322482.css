@@ -714,7 +714,9 @@ footer .right img {
 }
 
 
-.plans-container__plans-cards {
+@media (min-width:930px) {
+
+  .plans-container__plans-cards {
   justify-content: center;
   width: 93rem;
 }
@@ -741,4 +743,15 @@ footer .right img {
   justify-content: space-between;
   justify-content: center;
 }
+
+.exchange-container,
+.benefits-container,
+.bonus-container,
+.plans-container {
+  max-width: 930px;
+  margin: auto;
+}
+
+}
+
 
