@@ -1,4 +1,5 @@
-.plans-container__plans-cards {
+@media (min-width:930px) {
+  .plans-container__plans-cards {
   justify-content: center;
   width: 93rem;
 }
@@ -25,3 +26,5 @@
   justify-content: space-between;
   justify-content: center;
 }
+}
+
