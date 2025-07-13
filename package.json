@@ -8,7 +8,7 @@
     "css",
     "javascript"
   ],
-  "homepage": "https://github.com/anthonyArellano1923/Batatabit#readme",
+  "homepage": "https://anthonyarellano1923.github.io/Batatabit/",
   "bugs": {
     "url": "https://github.com/anthonyArellano1923/Batatabit/issues"
   },
@@ -21,7 +21,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist",
+    "build": "npm run clean && NODE_ENV=production webpack --mode production",
+    "build:dev": "npm run clean && NODE_ENV=development webpack --mode development",
+    "start": "webpack serve --open --mode development",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^13.0.0",
