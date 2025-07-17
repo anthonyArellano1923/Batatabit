@@ -91,7 +91,7 @@ header .header-container__p {
    left: calc(50% - 10.653rem); /*Esto es necesario ajustar al tamaño del botón */
   display: block;
   margin-top: 3.5rem;
-  width: 22.9;
+  width: 22.9rem;
   height: 4.8rem;
   padding: 1.5rem;
   background-color: var(--off-white);
@@ -131,7 +131,7 @@ main {
   width: 20rem;
   height: 20rem;
   margin: 0 auto 5rem;
-  background-image: url(/Batatabit/assets/bitcoin.svg);
+  background-image: url('./assets/icons/bitcoin.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -270,7 +270,7 @@ main {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 1rem;
-  background-image: url(/Batatabit/assets/trending-down-1.svg);
+  background-image: url('./assets/icons/trending-down-1.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -283,7 +283,7 @@ main {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 1rem;
-  background-image: url(/Batatabit/assets/trending-up-1.svg);
+  background-image: url('./assets/icons/trending-up-1.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -338,7 +338,7 @@ main {
   height: 2.5rem;
   top: -1rem;
   left: calc(50% - 2rem); /* Ancho del propio elemento */
-  background-image: url(/Batatabit/assets/group-16-patatita.svg);
+  background-image: url('./assets/icons/group-16-patatita.svg');
 }
 
 /* Estilos del contenedor de titulo de sección */
@@ -396,19 +396,19 @@ main {
 }
 
 .benefits-container .benefits-container__cards-section .benefits-container__cards-section--card .clock-icon{
-  background-image: url(/Batatabit/assets/clock-1.svg);
+  background-image: url('./assets/icons/clock-1.svg');
 }
 
 .benefits-container .benefits-container__cards-section .benefits-container__cards-section--card .eye-icon{
-  background-image: url(/Batatabit/assets/eye-1.svg);
+  background-image: url('./assets/icons/eye-1.svg');
 }
 
 .benefits-container .benefits-container__cards-section .benefits-container__cards-section--card .dollar-icon{
-  background-image: url(/Batatabit/assets/dollar-sign-1.svg);
+  background-image: url('./assets/icons/dollar-sign-1.svg');
 }
 
 .benefits-container .benefits-container__cards-section .benefits-container__cards-section--card .check-icon{
-  background-image: url(/Batatabit/assets/check-circle-1.svg);
+  background-image: url('./assets/icons/check-circle-1.svg');
 }
 
 /* Estilos de textos de las tarjetas */
@@ -438,7 +438,7 @@ main {
   height: 50vh;
   min-width: 32rem;
   text-align: center;
-  background-image: url(/Batatabit/assets/bitcoinbaby-1.png);
+  background-image: url('./assets/images/bitcoinbaby-1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -646,7 +646,7 @@ main {
   }
 
   .plans-container__plans-cards--card .anual-plan-button .anual-arrow {
-    background-image: url(/Batatabit/assets/arrow-right-1.svg);
+    background-image: url('./assets/icons/arrow-right-1.svg');
   }
 
     /* Monthly  */
@@ -655,7 +655,7 @@ main {
   }
 
   .plans-container__plans-cards--card .monthly-plan-button .monthly-arrow {
-    background-image: url(/Batatabit/assets/arrow-right-2.svg);
+    background-image: url('./assets/icons/arrow-right-2.svg');
   }
 
     /* Weekly  */
@@ -664,7 +664,7 @@ main {
     }
   
     .plans-container__plans-cards--card .weekly-plan-button .weekly-arrow {
-      background-image: url(/Batatabit/assets/arrow-right-2.svg);
+      background-image: url('./assets/icons/arrow-right-2.svg');
     }
 
 /* Estilos del footer */
@@ -712,46 +712,4 @@ footer .right img {
   width: 6.4rem;
   height: 5rem;
 }
-
-
-@media (min-width:930px) {
-
-  .plans-container__plans-cards {
-  justify-content: center;
-  width: 93rem;
-}
-
-.benefits-container {
-  padding: 2rem 0;
-}
-
-.benefits-container__cards-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 930px;
-  margin: 0 auto;
-}
-
-
-.benefits-container__cards-section .benefits-container__cards-section--card {
-  margin: 1.5rem 1rem;
-}
-
-.exchange-table-container {
-  width: 93rem;
-  justify-content: space-between;
-  justify-content: center;
-}
-
-.exchange-container,
-.benefits-container,
-.bonus-container,
-.plans-container {
-  max-width: 930px;
-  margin: auto;
-}
-
-}
-
 
